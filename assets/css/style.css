@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/gun_metal.png");
+}
+.container {
+    margin-left: 200px;
+}
+.box {
+    width: 400px;
+    height: 100px;
+    border: 3px solid grey;
+    color: white;
+    text-align: center;
+    background: black;
+}
+.boxgem {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.boxSmall {
+    width: 400px;
+    height: 48px;
+    border: 1px solid grey;
+    color: white;
+    background: black;
+}
+#title {
+    width: 400px;
+    height: 100px;
+    border: 3px solid grey;
+    color: white;
+    text-align: center;
+    background: black;
+}
+#instructions {
+    width: 400px;
+    height: 400px;
+    border: 3px solid grey;
+    color: white;
+    text-align: left;
+   
+}
+#gem1 {
+float: left;
+border-left: 3px solid grey;
+}
+#gem2 {
+float: left;
+}
+#gem3 {
+float: left;
+}
+#gem4 {
+float: left;
+border-right: 3px solid grey;
+}
+#totalScore {
+clear: both;
+}
+#gems{
+    width: 100px;
+    height: 100px;  
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
