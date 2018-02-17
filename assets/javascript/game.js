@@ -69,7 +69,6 @@ $(function () {
     // ==============================================
     resetGame();
     updateWinRecord(wins, loss);
-    // Each of the four crystals will have a rand number between 1 -12
     $('#gem1').on("click", function () {
         crystalNumber(crystal1, '1');
     });
