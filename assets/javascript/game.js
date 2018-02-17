@@ -45,7 +45,7 @@ $(function () {
     let crystalNumber = (crystalNum, num) => {
         // crystalNum = getRandomNumber(crystalNumberMax, cyrstalNumberMin);
         userScore = crystalNum + userScore;// when crystal is clicked it will add it value total
-        $('#gem' + num).text(crystalNum); // testing case to show gem number on tile
+        // $('#gem' + num).text(crystalNum); // testing case to show gem number on tile
         $('#totalCount').text(userScore);
         resultCheck(computerNumber, userScore);
     }
